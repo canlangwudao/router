@@ -1,3 +1,11 @@
+<div class="product">
 <p>
   product works!
 </p>
+<p>
+  这个商品的id是：{{productId}}
+</p>
+<a [routerLink]="['./']">商品</a>
+<a [routerLink]="['./seller',99]">销售员</a>
+<router-outlet></router-outlet>
+</div>
